@@ -13,6 +13,12 @@ button {
     margin-bottom: 10px;
 }
 
+button.clicked {
+    color: lightgray;
+    background-color: lightslategray;
+    border: 2px solid lightgray;
+}
+
 h3 {
     font-weight: lighter;
     margin: 0;

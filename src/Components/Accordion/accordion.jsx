@@ -1,9 +1,9 @@
 import data from "./data.js"
-import "./accordian_style.css"
+import "./accordion_style.css"
 import { useState } from "react";
 
 
-export default function Accordian() {
+export default function Accordion() {
     const [multiSelect, setMultiSelect] = useState(false);
     const [selectedID, setSelectedID] = useState([]);
 
@@ -43,6 +43,7 @@ export default function Accordian() {
         <div className="wrapper">
             <button
                 onClick={enableMultiSelect}
+                className={multiSelect ? 'clicked' : ''}
             >
                 Enable Multi-select
             </button>
@@ -62,7 +63,7 @@ export default function Accordian() {
                             OR NOT multiselect && selectedID's last element is id
                         */}
                         {
-                            selectedID.indexOf(item.id) !== -1 && 
+                            selectedID.indexOf(item.id) !== -1 &&
                             <div className="details">{item.answer}</div>
                         }
                     </div>

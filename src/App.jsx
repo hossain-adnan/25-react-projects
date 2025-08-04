@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import Accordian from './Components/Accordian/accordian'
+import Accordion from './Components/Accordion/accordion'
 
 function App() {
 
   return (
     <>
-      <Accordian/>
+      <Accordion/>
     </>
   );
 }
