@@ -1,1 +1,3 @@
-# 25-react-projects
+# 25 React Projects
+
+This repo showcases my React skills.
