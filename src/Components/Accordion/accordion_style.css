@@ -5,15 +5,15 @@
     flex-direction: column;
 }
 
-button {
+.wrapper > button {
     padding: 10px;
     font-size: 1rem;
-    background-color: lightgray;
+    background-color: red;
     border: 2px solid lightslategray;
     margin-bottom: 10px;
 }
 
-button.clicked {
+.wrapper > button.clicked {
     color: lightgray;
     background-color: lightslategray;
     border: 2px solid lightgray;
