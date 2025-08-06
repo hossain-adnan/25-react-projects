@@ -1,0 +1,21 @@
+.active {
+    color: gold
+}
+
+.inactive {
+    color: silver
+}
+
+.instruction {
+    color: rgb(59, 59, 59);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
