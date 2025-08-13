@@ -13,11 +13,7 @@ export default function QRcodeGenerator() {
 
     return (
         <div
-            style={{
-                display :"flex",
-                flexDirection :"column",
-                maxWidth : "370px"
-            }}
+            style={{display :"flex",flexDirection :"column",maxWidth : "370px"}}
         >
             <input 
                 type="text" 
