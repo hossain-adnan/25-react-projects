@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import "./styles.css"
+import useLocalStorage from "./useLocalStorage";
 
 export default function SetLightOrDarkTheme() {
 
-    const [theme, setTheme] = useState("light"); //useLocalStorage
+    const [theme, setTheme] = useLocalStorage("key", "light"); //useLocalStorage
 
     function handleToggle() {
         // theme toggle 
@@ -16,7 +17,7 @@ export default function SetLightOrDarkTheme() {
 
     return (
         <div className="theme-container" data-theme={theme}>
-            <h1>Hello world!</h1>
+            <h1>Hello {theme}ness!</h1>
             <button
                 onClick={() => handleToggle()}
             >Change Theme</button>
