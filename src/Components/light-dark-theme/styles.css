@@ -1,0 +1,36 @@
+:root {
+    --background-color: white;
+    --text-color: black;
+    --btn-background-color: black;
+    --btn-color: white;
+}
+
+[data-theme = "dark"] {
+    --background-color: black;
+    --text-color: white;
+    --btn-background-color: white;
+    --btn-color: black;
+}
+
+.theme-container {
+    background-color: var(--background-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.theme-container h1 {
+    color: var(--text-color);
+}
+
+.theme-container button {
+    background-color: var(--btn-background-color);
+    color: var(--btn-color);
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
