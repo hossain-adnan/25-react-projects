@@ -10,6 +10,7 @@ import Treeview from './Components/tree-view/index';
 import QRcodeGenerator from './Components/qr-code-generator';
 import SetLightOrDarkTheme from './Components/light-dark-theme'
 import ScrollIndicator from './Components/scroll-indicator';
+import TabsTest from './Components/custom-tabs/tab-test';
 
 function App() {
 
@@ -25,7 +26,8 @@ function App() {
       {/* <Treeview menus={menus}/> */}
       {/* <QRcodeGenerator/> */}
       {/* <SetLightOrDarkTheme/> */}
-      <ScrollIndicator/>
+      {/* <ScrollIndicator/> */}
+      <TabsTest/>
     </>
   );
 }

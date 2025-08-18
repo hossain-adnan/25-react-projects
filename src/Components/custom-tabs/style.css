@@ -1,0 +1,32 @@
+
+.tabs-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-tabs-container {
+    display: flex;
+    /* background-color: lightgray; */
+    justify-content: center;
+    /* gap: 10px; */
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.tabs-label {
+    background-color: lightgray;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tabs-label.active-label {
+    background-color: gray;
+    color: white;
+}
+
+.bottom-tabs-container {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
