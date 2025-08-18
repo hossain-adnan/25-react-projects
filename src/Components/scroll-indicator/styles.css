@@ -1,0 +1,22 @@
+.top-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.691);
+    z-index: 1;
+}
+
+.scroll-container {
+    background-color: lightgray;
+    height: 10px;
+}
+
+.scroll-indicator {
+    background-color: gray;
+    height: 10px;
+}
+
+.bottom-container {
+    margin-top: 100px;
+}
